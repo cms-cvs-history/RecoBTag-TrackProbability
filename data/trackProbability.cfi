@@ -1,0 +1,20 @@
+    
+  
+    module trackProbabilityJetTags = TrackProbability {
+      string jetTracks = "jetTracksAssociator"
+      string primaryVertex = "offlinePrimaryVerticesFromCTFTracks"        
+      PSet AlgorithmPSet =  { 
+         int32    NthTrack = 2
+         int32    ImpactParamterType = 0 
+         int32    MinimumNumberOfPixelHits = 2
+         int32   MinimumNumberOfHits = 8
+         double MaximumTransverseImpactParameter = 0.2
+         double MinimumTransverseMomentum = 1.0
+         double MaximumDecayLength = 5.0
+         double MaximumChiSquared = 5.0
+         double MaximumLongitudinalImpactParameter = 170.0
+         double MaximumDistanceToJetAxis = 0.07  
+       }
+    }
+
+
