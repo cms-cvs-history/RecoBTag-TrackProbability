@@ -1,0 +1,32 @@
+<FrameworkJobReport>
+
+<FrameworkError ExitStatus="8001" Type="CMSException" >
+  cms::Exception caught in cmsRun
+---- Configuration BEGIN
+Error occured while creating TrackProbability with label trackProbabilityJetTagsTest
+---- FileInPathError BEGIN
+Unable to find file RecoBTag/TrackProbability/data/2DHisto.xml anywhere in the search path.
+The search path is defined by: CMSSW_SEARCH_PATH
+${CMSSW_SEARCH_PATH} is: /afs/cern.ch/user/a/arizzi/scratch0/CMSSW_1_2_0_pre9/src:/afs/cern.ch/user/a/arizzi/scratch0/CMSSW_1_2_0_pre9/share:/afs/cern.ch/cms/sw/slc3_ia32_gcc323/cms/cmssw/CMSSW_1_2_0_pre9/src:/afs/cern.ch/cms/sw/slc3_ia32_gcc323/cms/cmssw/CMSSW_1_2_0_pre9/share
+Current directory is: /afs/cern.ch/user/a/arizzi/scratch0/CMSSW_1_2_0_pre9/src/RecoBTag/TrackProbability/test
+---- FileInPathError END
+---- Configuration END
+
+</FrameworkError>
+
+
+<InputFile>
+<State  Value="open"/>
+<LFN></LFN>
+<PFN>rfio:/castor/cern.ch/user/f/fwyzard/dataset/1.2.0-pre9/RelVal120pre9BJets50-120/0000/60464522-D783-DB11-9644-00304870D47B.root</PFN>
+<Catalog>trivialcatalog_file:/afs/cern.ch/cms/SITECONF/local/PhEDEx/storage.xml?protocol=rfio</Catalog>
+<ModuleLabel>source</ModuleLabel>
+<GUID></GUID>
+<Runs>
+</Runs>
+<Branches>
+</Branches>
+<InputSourceClass>PoolSource</InputSourceClass>
+<EventsRead>0</EventsRead>
+</InputFile>
+</FrameworkJobReport>
