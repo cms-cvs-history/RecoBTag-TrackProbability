@@ -4,7 +4,6 @@
       string jetTracks = "jetTracksAssociator"
       string primaryVertex = "offlinePrimaryVerticesFromCTFTracks"        
       PSet AlgorithmPSet =  { 
-         int32    NthTrack = 2
          int32    ImpactParamterType = 0 
          int32    MinimumNumberOfPixelHits = 2
          int32   MinimumNumberOfHits = 8
@@ -14,6 +13,7 @@
          double MaximumChiSquared = 5.0
          double MaximumLongitudinalImpactParameter = 170.0
          double MaximumDistanceToJetAxis = 0.07  
+         double MinimumProbability = 0.005
        }
     }
 
