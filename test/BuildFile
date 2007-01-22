@@ -9,8 +9,21 @@
 <use name=DataFormats/VertexReco>
 <use name=DataFormats/BTauReco>
 
+<use name=RecoBTag/XMLCalibration>
+<use name=RecoBTag/BTagTools>
+<use name=CondFormats/BTagObjects>
+<use name=CondFormats/DataRecord>
+<use name=FWCore/ServiceRegistry>
+<use name=CondCore/DBOutputService>
+<use name=CondCore/BTagPlugins>
+
 <library file=TrackProbabilityAnalyzer.cc name=TrackProbabilityAnalyzer>
   <use name=FWCore/Framework>
   <flags SEAL_PLUGIN_NAME="TrackProbabilityAnalyzer">
+</library>
+
+<library file=TrackProbabilityHistogramCalibration.cc name=TrackProbabilityHistogramCalibration>
+  <use name=FWCore/Framework>
+  <flags SEAL_PLUGIN_NAME="TrackProbabilityHistogramCalibration">
 </library>
 
