@@ -22,8 +22,8 @@
   <flags SEAL_PLUGIN_NAME="TrackProbabilityAnalyzer">
 </library>
 
-<library file=TrackProbabilityHistogramCalibration.cc name=TrackProbabilityHistogramCalibration>
-  <use name=FWCore/Framework>
-  <flags SEAL_PLUGIN_NAME="TrackProbabilityHistogramCalibration">
-</library>
+#<library file=TrackProbabilityHistogramCalibration.cc name=TrackProbabilityHistogramCalibration>
+#  <use name=FWCore/Framework>
+#  <flags SEAL_PLUGIN_NAME="TrackProbabilityHistogramCalibration">
+#</library>
 

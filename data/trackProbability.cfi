@@ -3,6 +3,7 @@
     module trackProbabilityJetTags = TrackProbability {
       string jetTracks = "jetTracksAssociator"
       string primaryVertex = "offlinePrimaryVerticesFromCTFTracks"        
+      bool UseDB = false
       PSet AlgorithmPSet =  { 
          int32    ImpactParamterType = 0 
          int32    MinimumNumberOfPixelHits = 2
