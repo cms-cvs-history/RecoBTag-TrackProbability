@@ -11,11 +11,11 @@
 
 <use name=RecoBTag/XMLCalibration>
 <use name=RecoBTag/BTagTools>
-<use name=CondFormats/BTagObjects>
+<use name=CondFormats/BTauObjects>
 <use name=CondFormats/DataRecord>
 <use name=FWCore/ServiceRegistry>
 <use name=CondCore/DBOutputService>
-<use name=CondCore/BTagPlugins>
+<use name=CondCore/BTauPlugins>
 
 <library file=TrackProbabilityAnalyzer.cc name=TrackProbabilityAnalyzer>
   <use name=FWCore/Framework>
