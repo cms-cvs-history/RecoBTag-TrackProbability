@@ -6,8 +6,8 @@
       bool UseDB = false
       PSet AlgorithmPSet =  { 
          int32    ImpactParamterType = 0 
-         int32    MinimumNumberOfPixelHits = 2
-         int32   MinimumNumberOfHits = 8
+         uint32    MinimumNumberOfPixelHits = 2
+         uint32   MinimumNumberOfHits = 8
          double MaximumTransverseImpactParameter = 0.2
          double MinimumTransverseMomentum = 1.0
          double MaximumDecayLength = 5.0
