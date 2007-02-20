@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?><!DOCTYPE Calibration><Calibration CategoryType="DefaultCalibrationCategory" Tag="Run234324">
-    <TrackClassFilterCategory chimax="2.5" chimin="0" etamax="3" etamin="1.6" numhitsmax="50" numhitsmin="5" numpixelmax="5" numpixelmin="3" pmax="50000" pmin="8">
+    <TrackClassFilterCategory chimax="2.5" chimin="0" etamax="3" etamin="1.6" numhitsmax="50" numhitsmin="5" numpixelmax="5" numpixelmin="3" pmax="50000" pmin="8" withfirstpixelhit="0">
     <CalibratedHistogram overFlowValue="31" size="10001">
       <Bin uLimit="0" value="0"/>
       <Bin uLimit="0.005" value="5"/>
@@ -10004,7 +10004,7 @@
       <Bin uLimit="50" value="0"/>
         </CalibratedHistogram>
       </TrackClassFilterCategory>
-    <TrackClassFilterCategory chimax="2.5" chimin="0" etamax="1.6" etamin="0.8" numhitsmax="50" numhitsmin="5" numpixelmax="5" numpixelmin="3" pmax="50000" pmin="8">
+    <TrackClassFilterCategory chimax="2.5" chimin="0" etamax="1.6" etamin="0.8" numhitsmax="50" numhitsmin="5" numpixelmax="5" numpixelmin="3" pmax="50000" pmin="8" withfirstpixelhit="0">
     <CalibratedHistogram overFlowValue="12" size="10001">
       <Bin uLimit="0" value="0"/>
       <Bin uLimit="0.005" value="2"/>
@@ -20009,7 +20009,7 @@
       <Bin uLimit="50" value="0"/>
         </CalibratedHistogram>
       </TrackClassFilterCategory>
-    <TrackClassFilterCategory chimax="2.5" chimin="0" etamax="0.8" etamin="0" numhitsmax="50" numhitsmin="5" numpixelmax="5" numpixelmin="3" pmax="50000" pmin="8">
+    <TrackClassFilterCategory chimax="2.5" chimin="0" etamax="0.8" etamin="0" numhitsmax="50" numhitsmin="5" numpixelmax="5" numpixelmin="3" pmax="50000" pmin="8" withfirstpixelhit="0">
     <CalibratedHistogram overFlowValue="5" size="10001">
       <Bin uLimit="0" value="0"/>
       <Bin uLimit="0.005" value="2"/>
@@ -30014,7 +30014,7 @@
       <Bin uLimit="50" value="0"/>
         </CalibratedHistogram>
       </TrackClassFilterCategory>
-    <TrackClassFilterCategory chimax="2.5" chimin="0" etamax="3" etamin="0" numhitsmax="50" numhitsmin="5" numpixelmax="2" numpixelmin="2" pmax="50000" pmin="8">
+    <TrackClassFilterCategory chimax="2.5" chimin="0" etamax="3" etamin="0" numhitsmax="50" numhitsmin="5" numpixelmax="2" numpixelmin="2" pmax="50000" pmin="8" withfirstpixelhit="0">
     <CalibratedHistogram overFlowValue="19" size="10001">
       <Bin uLimit="0" value="0"/>
       <Bin uLimit="0.005" value="0"/>
@@ -40019,7 +40019,7 @@
       <Bin uLimit="50" value="0"/>
         </CalibratedHistogram>
       </TrackClassFilterCategory>
-    <TrackClassFilterCategory chimax="2.5" chimin="0" etamax="3" etamin="1.6" numhitsmax="50" numhitsmin="5" numpixelmax="5" numpixelmin="3" pmax="8" pmin="0">
+    <TrackClassFilterCategory chimax="2.5" chimin="0" etamax="3" etamin="1.6" numhitsmax="50" numhitsmin="5" numpixelmax="5" numpixelmin="3" pmax="8" pmin="0" withfirstpixelhit="0">
     <CalibratedHistogram overFlowValue="13" size="10001">
       <Bin uLimit="0" value="0"/>
       <Bin uLimit="0.005" value="1"/>
@@ -50024,7 +50024,7 @@
       <Bin uLimit="50" value="0"/>
         </CalibratedHistogram>
       </TrackClassFilterCategory>
-    <TrackClassFilterCategory chimax="2.5" chimin="0" etamax="1.6" etamin="0.8" numhitsmax="50" numhitsmin="5" numpixelmax="5" numpixelmin="3" pmax="8" pmin="0">
+    <TrackClassFilterCategory chimax="2.5" chimin="0" etamax="1.6" etamin="0.8" numhitsmax="50" numhitsmin="5" numpixelmax="5" numpixelmin="3" pmax="8" pmin="0" withfirstpixelhit="0">
     <CalibratedHistogram overFlowValue="27" size="10001">
       <Bin uLimit="0" value="0"/>
       <Bin uLimit="0.005" value="2"/>
@@ -60029,7 +60029,7 @@
       <Bin uLimit="50" value="0"/>
         </CalibratedHistogram>
       </TrackClassFilterCategory>
-    <TrackClassFilterCategory chimax="2.5" chimin="0" etamax="0.8" etamin="0" numhitsmax="50" numhitsmin="5" numpixelmax="5" numpixelmin="3" pmax="8" pmin="0">
+    <TrackClassFilterCategory chimax="2.5" chimin="0" etamax="0.8" etamin="0" numhitsmax="50" numhitsmin="5" numpixelmax="5" numpixelmin="3" pmax="8" pmin="0" withfirstpixelhit="0">
     <CalibratedHistogram overFlowValue="47" size="10001">
       <Bin uLimit="0" value="0"/>
       <Bin uLimit="0.005" value="2"/>
@@ -70034,7 +70034,7 @@
       <Bin uLimit="50" value="0"/>
         </CalibratedHistogram>
       </TrackClassFilterCategory>
-    <TrackClassFilterCategory chimax="2.5" chimin="0" etamax="3" etamin="0" numhitsmax="50" numhitsmin="5" numpixelmax="2" numpixelmin="2" pmax="8" pmin="0">
+    <TrackClassFilterCategory chimax="2.5" chimin="0" etamax="3" etamin="0" numhitsmax="50" numhitsmin="5" numpixelmax="2" numpixelmin="2" pmax="8" pmin="0" withfirstpixelhit="0">
     <CalibratedHistogram overFlowValue="15" size="10001">
       <Bin uLimit="0" value="0"/>
       <Bin uLimit="0.005" value="0"/>
@@ -80039,7 +80039,7 @@
       <Bin uLimit="50" value="0"/>
         </CalibratedHistogram>
       </TrackClassFilterCategory>
-    <TrackClassFilterCategory chimax="10" chimin="2.5" etamax="3" etamin="0" numhitsmax="50" numhitsmin="5" numpixelmax="5" numpixelmin="2" pmax="50000" pmin="0">
+    <TrackClassFilterCategory chimax="10" chimin="2.5" etamax="3" etamin="0" numhitsmax="50" numhitsmin="5" numpixelmax="5" numpixelmin="2" pmax="50000" pmin="0" withfirstpixelhit="0">
     <CalibratedHistogram overFlowValue="80" size="10001">
       <Bin uLimit="0" value="0"/>
       <Bin uLimit="0.005" value="0"/>
