@@ -20,11 +20,11 @@
 
 <library file=TrackProbabilityAnalyzer.cc name=TrackProbabilityAnalyzer>
   <use name=FWCore/Framework>
-  <flags SEAL_PLUGIN_NAME="TrackProbabilityAnalyzer">
+  <flags EDM_PLUGIN=1>
 </library>
 
 <library file=TrackProbabilityXMLtoDB.cc name=TrackProbabilityXMLtoDB>
   <use name=FWCore/Framework>
-  <flags SEAL_PLUGIN_NAME="TrackProbabilityXMLtoDB">
+  <flags EDM_PLUGIN=1>
 </library>
 
