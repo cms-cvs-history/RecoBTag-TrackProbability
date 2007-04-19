@@ -16,7 +16,6 @@
 <use name=CondFormats/DataRecord>
 <use name=FWCore/ServiceRegistry>
 <use name=CondCore/DBOutputService>
-<use name=CondCore/BTauPlugins>
 
 <library file=TrackProbabilityAnalyzer.cc name=TrackProbabilityAnalyzer>
   <use name=FWCore/Framework>
