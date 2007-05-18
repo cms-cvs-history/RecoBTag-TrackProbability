@@ -1,6 +1,6 @@
     
   
-    module trackProbabilityJetTags = TrackProbability {
+    module trackProbabilityTagInfos = TrackProbability {
       string jetTracks = "jetTracksAssociator"
       string primaryVertex = "offlinePrimaryVerticesFromCTFTracks"        
       bool UseDB = false
