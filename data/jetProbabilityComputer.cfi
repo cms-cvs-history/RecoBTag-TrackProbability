@@ -2,8 +2,9 @@
         string ComponentName = "jetProbability"
 	
      PSet JetTagComputerPSet = {
-              int32    ImpactParamterType = 0 
-              double MinimumProbability = 0.005
-         }
+              int32  impactParamterType = 0 
+              double minimumProbability = 0.005
+              double deltaR = 10.  #default cut in JTA is 0.5
+        }
     }
     
