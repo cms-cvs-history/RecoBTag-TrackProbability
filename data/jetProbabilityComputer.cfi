@@ -4,7 +4,7 @@
      PSet JetTagComputerPSet = {
               int32  impactParamterType = 0 
               double minimumProbability = 0.005
-              double deltaR = 10.  #default cut in JTA is 0.5
+              double deltaR = 0.3
         }
     }
     
