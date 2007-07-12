@@ -1,5 +1,5 @@
-    es_module jetProbability = JetProbabilityESProducer {
-        string ComponentName = "jetProbability"
+    es_module positiveOnlyJetProbability = JetProbabilityESProducer {
+        string ComponentName = "positiveOnlyJetProbability"
 	
      PSet JetTagComputerPSet = {
               int32  impactParamterType = 0 
