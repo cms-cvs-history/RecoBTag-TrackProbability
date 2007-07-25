@@ -27,3 +27,7 @@
   <flags EDM_PLUGIN=1>
 </library>
 
+<library file=CalibrationSkeleton.cc name=CalibrationSkeleton>
+  <use name=FWCore/Framework>
+  <flags EDM_PLUGIN=1>
+</library>
