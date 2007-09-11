@@ -13,7 +13,7 @@
 //
 // Original Author:  Andrea Rizzi
 //         Created:  Thu Apr  6 09:56:23 CEST 2006
-// $Id: TrackProbability.cc,v 1.3 2007/05/09 20:41:16 arizzi Exp $
+// $Id: TrackProbability.cc,v 1.4 2007/05/16 10:27:28 arizzi Exp $
 //
 //
 
@@ -32,6 +32,7 @@
 
 #include "DataFormats/BTauReco/interface/JetTag.h"
 #include "DataFormats/TrackReco/interface/Track.h"
+#include "DataFormats/VertexReco/interface/VertexFwd.h"
 #include "DataFormats/BTauReco/interface/TrackProbabilityTagInfo.h"
 
 #include "TrackingTools/TransientTrack/interface/TransientTrackBuilder.h"
