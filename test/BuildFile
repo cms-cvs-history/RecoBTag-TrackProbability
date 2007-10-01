@@ -28,7 +28,19 @@
   <flags EDM_PLUGIN=1>
 </library>
 
-<library file=CalibrationSkeleton.cc name=CalibrationSkeleton>
+<library file=TrackProbabilityDBtoXMLnew.cc  name=TrackProbabilityXMLtoDB>
   <use name=FWCore/Framework>
-  <flags EDM_PLUGIN=1>
+   <use name=FWCore/ParameterSet>
+   <use name=FWCore/ServiceRegistry>
+   <use name=FWCore/Utilities>
+   <use name=CondFormats/DataRecord>
+   <use name=CondFormats/BTauObjects>
+   <use name=rootcore>
+  <use name=boost>
+  <flags LDFLAGS="-lXMLIO">
+ <flags CXXFLAGS="-fpermissive">
+  
+<flags EDM_PLUGIN=1>
 </library>
+
+
