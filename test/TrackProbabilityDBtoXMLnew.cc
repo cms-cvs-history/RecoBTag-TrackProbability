@@ -13,7 +13,7 @@
 //
 // Original Author:  Andrea Rizzi
 //         Created:  Wed Apr 12 11:12:49 CEST 2006
-// $Id: TrackProbabilityDBtoXMLnew.cc,v 1.2 2007/02/16 09:46:51 arizzi Exp $
+// $Id: TrackProbabilityDBtoXMLnew.cc,v 1.1 2007/10/01 07:15:09 arizzi Exp $
 //
 //
 #include <iostream>
@@ -73,7 +73,6 @@ using namespace std;
 
 #include "RecoBTag/XMLCalibration/interface/AlgorithmCalibration.h"
 #include "RecoBTag/XMLCalibration/interface/CalibratedHistogramXML.h"
-#include "RecoBTag/TrackProbability/interface/TrackClassFilterCategory.h"
 
 //#include "TH1F.h"
 //#include "TFile.h"
