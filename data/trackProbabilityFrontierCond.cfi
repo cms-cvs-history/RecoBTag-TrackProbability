@@ -1,11 +1,12 @@
 include "CondCore/DBCommon/data/CondDBCommon.cfi"
-es_source trackProbabilityFrontierCond = PoolDBESSource {
+es_source trackProbabilityFakeCond = PoolDBESSource {
 
-                         string connect = "sqlite_file:btagnew.db"
-                         untracked string catalog = "file:mycatalog.xml"
+                         string connect = "oracle://cms_orcoff_int2r/CMS_COND_BTAU"
                          string timetype = "runnumber"
+                         untracked string BlobStreamerName="TBufferBlobStreamingService"
+
                          PSet DBParameters = {
-                           untracked string authenticationPath="."
+                           untracked string authenticationPath="/afs/cern.ch/cms/DB/conddb"
                            untracked int32 messageLevel=0
                            untracked bool loadBlobStreamer = false
                            untracked int32 connectionTimeOut = 600
@@ -14,7 +15,7 @@ es_source trackProbabilityFrontierCond = PoolDBESSource {
                            untracked bool enableConnectionSharing = false
                            untracked bool enableReadOnlySessionOnUpdateConnection = false
                            untracked bool enablePoolAutomaticCleanUp = true
-                         } 
+                         }
 
                                   VPSet toGet = {
                                    {string record = "BTagTrackProbability2DRcd"
@@ -22,5 +23,5 @@ es_source trackProbabilityFrontierCond = PoolDBESSource {
                                    {string record = "BTagTrackProbability3DRcd"
                                      string tag = "probBTagPDF3D_tag"    }
                                     }
-                                   }
+}
 
