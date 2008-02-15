@@ -13,7 +13,7 @@
 //
 // Original Author:  Andrea Rizzi
 //         Created:  Wed Apr 12 11:12:49 CEST 2006
-// $Id: TrackProbabilityAnalyzer.cc,v 1.5 2007/01/23 14:11:02 arizzi Exp $
+// $Id: TrackProbabilityAnalyzer.cc,v 1.8 2007/10/06 19:31:01 arizzi Exp $
 //
 //
 
@@ -97,12 +97,12 @@ TrackProbabilityAnalyzer::analyze(const edm::Event& iEvent, const edm::EventSetu
   const TrackProbabilityTagInfoCollection & info = *(jetsInfoHandle.product());
 
   for (JetTagCollection::size_type i = 0; i < jets.size(); ++i) {
-    cout << jets[i].discriminator() <<endl;
-    cout  << "Number of associated tracks " << jets[i].tracks().size() << endl;
-    const edm::RefVector<TrackCollection> & tracks=  jets[i].tracks();
-    for (edm::RefVector<TrackCollection>::iterator j = tracks.begin(); j != tracks.end(); ++j) {
-      cout << (*j)->pt() << endl;
-    }
+   // cout << jets[i].first <<endl;
+  //  cout  << "Number of associated tracks " << jets[i].tracks().size() << endl;
+  //  const edm::RefVector<TrackCollection> & tracks=  jets[i].tracks();
+    //for (edm::RefVector<TrackCollection>::iterator j = tracks.begin(); j != tracks.end(); ++j) {
+    //  cout << (*j)->pt() << endl;
+  //  }
   }    
  
   for(TrackProbabilityTagInfoCollection::size_type i = 0 ; i < info.size() ; ++i  )
@@ -123,5 +123,4 @@ TrackProbabilityAnalyzer::analyze(const edm::Event& iEvent, const edm::EventSetu
 }
 
 //define this as a plug-in
-DEFINE_SEAL_MODULE();
-DEFINE_ANOTHER_FWK_MODULE(TrackProbabilityAnalyzer);
+DEFINE_FWK_MODULE(TrackProbabilityAnalyzer);

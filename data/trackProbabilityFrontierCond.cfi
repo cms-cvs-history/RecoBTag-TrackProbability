@@ -1,0 +1,26 @@
+include "CondCore/DBCommon/data/CondDBCommon.cfi"
+es_source trackProbabilityFrontierCond = PoolDBESSource {
+
+                         string connect = "sqlite_file:btagnew.db"
+                         untracked string catalog = "file:mycatalog.xml"
+                         string timetype = "runnumber"
+                         PSet DBParameters = {
+                           untracked string authenticationPath="."
+                           untracked int32 messageLevel=0
+                           untracked bool loadBlobStreamer = false
+                           untracked int32 connectionTimeOut = 600
+                           untracked int32 connectionRetrialPeriod = 30
+                           untracked int32 connectionRetrialTimeOut = 180
+                           untracked bool enableConnectionSharing = false
+                           untracked bool enableReadOnlySessionOnUpdateConnection = false
+                           untracked bool enablePoolAutomaticCleanUp = true
+                         } 
+
+                                  VPSet toGet = {
+                                   {string record = "BTagTrackProbability2DRcd"
+                                     string tag = "probBTagPDF2D_tag"    },
+                                   {string record = "BTagTrackProbability3DRcd"
+                                     string tag = "probBTagPDF3D_tag"    }
+                                    }
+                                   }
+

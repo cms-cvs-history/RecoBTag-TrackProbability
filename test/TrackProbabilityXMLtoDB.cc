@@ -13,7 +13,7 @@
 //
 // Original Author:  Andrea Rizzi
 //         Created:  Wed Apr 12 11:12:49 CEST 2006
-// $Id: TrackProbabilityXMLtoDB.cc,v 1.1 2007/02/16 08:37:53 arizzi Exp $
+// $Id: TrackProbabilityXMLtoDB.cc,v 1.5 2007/09/24 21:26:17 fwyzard Exp $
 //
 //
 
@@ -38,8 +38,8 @@ using namespace std;
 #include "DataFormats/Common/interface/Ref.h"
 #include "DataFormats/JetReco/interface/Jet.h"
 #include "DataFormats/JetReco/interface/CaloJet.h"
-#include "DataFormats/TrackReco/interface/Track.h"
 #include "DataFormats/BTauReco/interface/JetTracksAssociation.h"
+#include "DataFormats/TrackReco/interface/Track.h"
 
 //#include "RecoBTag/TrackProbability/interface/TrackClassFilterCategory.h"
 
@@ -157,5 +157,4 @@ TrackProbabilityXMLtoDB::analyze(const edm::Event& iEvent, const edm::EventSetup
 }
 
 //define this as a plug-in
-DEFINE_SEAL_MODULE();
-DEFINE_ANOTHER_FWK_MODULE(TrackProbabilityXMLtoDB);
+DEFINE_FWK_MODULE(TrackProbabilityXMLtoDB);
