@@ -23,7 +23,3 @@
   <flags EDM_PLUGIN=1>
 </library>
 
-<library file=TrackProbabilityXMLtoDB.cc name=TrackProbabilityXMLtoDB>
-  <use name=FWCore/Framework>
-  <flags EDM_PLUGIN=1>
-</library>
