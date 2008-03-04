@@ -1,7 +1,7 @@
 include "CondCore/DBCommon/data/CondDBCommon.cfi"
 es_source trackProbabilityFakeCond = PoolDBESSource {
 
-                         string connect = "sqlite_fip:CondCore/SQLiteData/data/btagTrackProbability.db"
+                         string connect = "sqlite_fip:CondCore/SQLiteData/data/btagTrackProbability200.db"
                          string timetype = "runnumber"
 	                 untracked string BlobStreamerName="TBufferBlobStreamingService"
 
