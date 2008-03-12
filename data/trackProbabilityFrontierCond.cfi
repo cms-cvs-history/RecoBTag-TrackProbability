@@ -19,9 +19,9 @@ es_source trackProbabilityFrontierCond = PoolDBESSource {
 
                                   VPSet toGet = {
                                    {string record = "BTagTrackProbability2DRcd"
-                                     string tag = "probBTagPDF2D_tag"    },
+                                     string tag = "probBTagPDF2D_tag_mc"    },
                                    {string record = "BTagTrackProbability3DRcd"
-                                     string tag = "probBTagPDF3D_tag"    }
+                                     string tag = "probBTagPDF3D_tag_mc"    }
                                     }
 }
 
