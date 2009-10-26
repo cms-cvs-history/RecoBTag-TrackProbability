@@ -19,7 +19,6 @@
 <use name=TrackingTools/IPTools>
 
 <library file=TrackProbabilityAnalyzer.cc name=TrackProbabilityAnalyzer>
-  <use name=FWCore/Framework>
   <flags EDM_PLUGIN=1>
 </library>
 
